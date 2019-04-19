@@ -4,13 +4,29 @@
   
     
     <entry>
-      <title></title>
-      <link href="/2019/04/20/hou-duan/spring/shi-yong-idea-kuai-su-gou-jian-springboot-xiang-mu/"/>
-      <url>/2019/04/20/hou-duan/spring/shi-yong-idea-kuai-su-gou-jian-springboot-xiang-mu/</url>
+      <title>使用idea快速搭建SpringBoot</title>
+      <link href="/2019/03/10/hou-duan/spring/shi-yong-idea-kuai-su-gou-jian-springboot-xiang-mu/"/>
+      <url>/2019/03/10/hou-duan/spring/shi-yong-idea-kuai-su-gou-jian-springboot-xiang-mu/</url>
       
-        <content type="html"><![CDATA[<p>-–</p><p>title: 使用idea快速搭建SpringBoot</p><p>date: 2019-03-10 19:12:00</p><p>author: magiclz233</p><p>img: <a href="http://static.blinkfox.com/20190302.png" target="_blank" rel="noopener">http://static.blinkfox.com/20190302.png</a></p><p>top: true</p><p>categories: 后端</p><p>tags:</p><p>  - Java</p><p>  - Spring</p><p>  - SpringBoot</p><p>-–</p><h2 id="需要工具"><a href="#需要工具" class="headerlink" title="需要工具"></a>需要工具</h2><p>​    idea应该是目前Java开发中编辑器最快捷强大的一个，今天我介绍一下如何使用idea快速生成SpringBoot项目。</p><p>​    首先在电脑上配置好JDK和Maven，还有就是去idea<a href="https://www.jetbrains.com/idea/" target="_blank" rel="noopener">官网</a>下载最新版的编辑器。然后快速安装。这些都不多做介绍。</p><h2 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="需要工具"><a href="#需要工具" class="headerlink" title="需要工具"></a>需要工具</h2><p>​    idea应该是目前Java开发中编辑器最快捷强大的一个，今天我介绍一下如何使用idea快速生成SpringBoot项目。</p><p>​    首先在电脑上配置好JDK和Maven，还有就是去idea<a href="https://www.jetbrains.com/idea/" target="_blank" rel="noopener">官网</a>下载最新版的编辑器。然后快速安装。这些都不多做介绍。</p><h2 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h2>]]></content>
       
       
+      <categories>
+          
+          <category> 后端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> Spring </tag>
+            
+            <tag> SpringBoot </tag>
+            
+        </tags>
       
     </entry>
     
@@ -37,9 +53,9 @@
             
             <tag> Spring </tag>
             
-            <tag> 单元测试 </tag>
-            
             <tag> SpringBoot </tag>
+            
+            <tag> 单元测试 </tag>
             
         </tags>
       
