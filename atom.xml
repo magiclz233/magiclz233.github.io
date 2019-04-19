@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://magiclz233.github.io/"/>
-  <updated>2019-03-02T09:49:57.000Z</updated>
+  <updated>2019-04-19T18:07:40.926Z</updated>
   <id>https://magiclz233.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://magiclz233.github.io/2019/04/20/hou-duan/spring/shi-yong-idea-kuai-su-gou-jian-springboot-xiang-mu/"/>
+    <id>https://magiclz233.github.io/2019/04/20/hou-duan/spring/shi-yong-idea-kuai-su-gou-jian-springboot-xiang-mu/</id>
+    <published>2019-04-19T17:42:24.052Z</published>
+    <updated>2019-04-19T18:07:40.926Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;-–&lt;/p&gt;
+&lt;p&gt;title: 使用idea快速搭建SpringBoot&lt;/p&gt;
+&lt;p&gt;date: 2019-03-10 19:12:00&lt;/p&gt;
+&lt;p&gt;author: magiclz233&lt;/p&gt;
+&lt;p&gt;img: &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>SpringBoot2.x 单元测试</title>
@@ -362,84 +388,6 @@
   </entry>
   
   <entry>
-    <title>Java7新特性及使用</title>
-    <link href="https://magiclz233.github.io/2018/11/12/hou-duan/java/java7-xin-te-xing-ji-shi-yong/"/>
-    <id>https://magiclz233.github.io/2018/11/12/hou-duan/java/java7-xin-te-xing-ji-shi-yong/</id>
-    <published>2018-11-11T16:30:00.000Z</published>
-    <updated>2019-03-02T09:49:57.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;新特性列表&quot;&gt;&lt;a href=&quot;#新特性列表&quot; class=&quot;headerlink&quot; title=&quot;新特性列表&quot;&gt;&lt;/a&gt;新特性列表&lt;/h2&gt;&lt;p&gt;以下是Java7中的引入的部分新特性。关于Java7更详细的介绍可参考&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="后端" scheme="https://magiclz233.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
-    
-    
-      <category term="Java" scheme="https://magiclz233.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java6新特性及使用</title>
-    <link href="https://magiclz233.github.io/2018/11/11/hou-duan/java/java6-xin-te-xing-ji-shi-yong/"/>
-    <id>https://magiclz233.github.io/2018/11/11/hou-duan/java/java6-xin-te-xing-ji-shi-yong/</id>
-    <published>2018-11-11T14:40:00.000Z</published>
-    <updated>2019-03-02T09:49:57.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;新特性列表&quot;&gt;&lt;a href=&quot;#新特性列表&quot; class=&quot;headerlink&quot; title=&quot;新特性列表&quot;&gt;&lt;/a&gt;新特性列表&lt;/h2&gt;&lt;p&gt;以下是Java6中的引入的部分新特性，相比Java5的新特性就少了很多了。关于Java6更详细的介绍可参考&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="后端" scheme="https://magiclz233.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
-    
-    
-      <category term="Java" scheme="https://magiclz233.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java5新特性及使用</title>
-    <link href="https://magiclz233.github.io/2018/11/09/hou-duan/java/java5-xin-te-xing-ji-shi-yong/"/>
-    <id>https://magiclz233.github.io/2018/11/09/hou-duan/java/java5-xin-te-xing-ji-shi-yong/</id>
-    <published>2018-11-08T16:30:00.000Z</published>
-    <updated>2019-03-02T09:49:57.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;新特性列表&quot;&gt;&lt;a href=&quot;#新特性列表&quot; class=&quot;headerlink&quot; title=&quot;新特性列表&quot;&gt;&lt;/a&gt;新特性列表&lt;/h2&gt;&lt;p&gt;以下是Java5中的引入的部分新特性，关于更详细的新特性了解，可参考&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="后端" scheme="https://magiclz233.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
-    
-    
-      <category term="Java" scheme="https://magiclz233.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Java注解的理解和应用</title>
     <link href="https://magiclz233.github.io/2018/11/08/hou-duan/java/java-zhu-jie-de-li-jie-he-ying-yong/"/>
     <id>https://magiclz233.github.io/2018/11/08/hou-duan/java/java-zhu-jie-de-li-jie-he-ying-yong/</id>
@@ -569,6 +517,60 @@
     
     
       <category term="JavaScript" scheme="https://magiclz233.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java面向对象设计之单例模式</title>
+    <link href="https://magiclz233.github.io/2018/10/29/ruan-jian-she-ji/she-ji-mo-shi/java-mian-xiang-dui-xiang-she-ji-zhi-dan-li-mo-shi/"/>
+    <id>https://magiclz233.github.io/2018/10/29/ruan-jian-she-ji/she-ji-mo-shi/java-mian-xiang-dui-xiang-she-ji-zhi-dan-li-mo-shi/</id>
+    <published>2018-10-29T15:30:00.000Z</published>
+    <updated>2019-03-02T09:49:57.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;模式动机&quot;&gt;&lt;a href=&quot;#模式动机&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="软件设计" scheme="https://magiclz233.github.io/categories/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+      <category term="Java" scheme="https://magiclz233.github.io/tags/Java/"/>
+    
+      <category term="设计模式" scheme="https://magiclz233.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java异常知识汇总</title>
+    <link href="https://magiclz233.github.io/2018/10/28/hou-duan/java/java-yi-chang-zhi-shi-hui-zong/"/>
+    <id>https://magiclz233.github.io/2018/10/28/hou-duan/java/java-yi-chang-zhi-shi-hui-zong/</id>
+    <published>2018-10-27T16:30:00.000Z</published>
+    <updated>2019-03-02T09:49:57.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;h3 id=&quot;为什么要使用异常&quot;&gt;&lt;a href=&quot;#为什么要使用异常&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="后端" scheme="https://magiclz233.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
+    
+    
+      <category term="Java" scheme="https://magiclz233.github.io/tags/Java/"/>
     
   </entry>
   
