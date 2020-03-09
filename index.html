@@ -306,13 +306,6 @@
 
 <div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
     
-    <div id="prev-cover" class="left waves-effect carousel-control">
-        <i class="icon fa fa-angle-left"></i>
-    </div>
-    <div id="next-cover" class="right waves-effect carousel-control">
-        <i class="icon fa fa-angle-right"></i>
-    </div>
-    
 
     <div class="carousel-item red white-text bg-cover about-cover">
         <div class="container">
@@ -472,37 +465,16 @@ $(function () {
     coverSlider.carousel({
         duration: Number('120'),
         fullWidth: true,
-        indicators: 'true' === 'true'
+        indicators: 'false' === 'true'
     });
 
     let carouselIntervalId;
     
-    // Loop to call the next cover article picture.
-    let autoCarousel = function() {
-        carouselIntervalId = setInterval(function () {
-            coverSlider.carousel('next');
-        }, 5000);
-    };
-    autoCarousel();
-    
 
     let restartPlay = function () {
         
-        clearInterval(carouselIntervalId);
-        autoCarousel();
-        
     };
 
-    
-    // prev and next cover post.
-    $('#prev-cover').click(function () {
-        coverSlider.carousel('prev');
-        restartPlay();
-    });
-    $('#next-cover').click(function () {
-        coverSlider.carousel('next');
-        restartPlay();
-    });
     
 });
 </script>
@@ -532,77 +504,7 @@ $(function () {
                     
 
                     
-                        
 
-<link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
-<div class="music-player">
-    
-    <div class="title center-align">
-        <i class="fa fa-music"></i>&nbsp;&nbsp;听听音乐
-    </div>
-    
-    <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s12">
-            <div id="aplayer" class="music"></div>
-        </div>
-    </div>
-</div>
-
-<script src="/libs/aplayer/APlayer.min.js"></script>
-<script>
-$(function () {
-    new APlayer({
-        container: document.getElementById('aplayer'),
-        fixed: 'false' === 'true',
-        autoplay: 'false' === 'true',
-        theme: '#42b983',
-        loop: 'all',
-        order: 'list',
-        preload: 'none',
-        volume: Number('0.7'),
-        listFolded: 'false' === 'true',
-        listMaxHeight: '',
-        audio: JSON.parse('[{"name":"倒数","artist":"G.E.M邓紫棋","url":"http://pq9ilgdr2.bkt.clouddn.com/G.E.M.%E9%82%93%E7%B4%AB%E6%A3%8B-%E5%80%92%E6%95%B0.mp3","cover":"http://p4.music.126.net/o2qzE0Is5Qh1pfSKQiVGkA==/18646617697368402.jpg?param=640y300"},{"name":"光年之外","artist":"G.E.M邓紫棋","url":"http://pq9ilgdr2.bkt.clouddn.com/G.E.M.%E9%82%93%E7%B4%AB%E6%A3%8B-%E5%85%89%E5%B9%B4%E4%B9%8B%E5%A4%96-%28%E7%94%B5%E5%BD%B1%E3%80%8A%E5%A4%AA%E7%A9%BA%E6%97%85%E5%AE%A2%E3%80%8B%E4%B8%AD%E6%96%87%E4%B8%BB%E9%A2%98%E6%9B%B2%29.mp3","cover":"http://p4.music.126.net/o2qzE0Is5Qh1pfSKQiVGkA==/18646617697368402.jpg?param=640y300"},{"name":"Venom","artist":"Eminem","url":"http://pq9ilgdr2.bkt.clouddn.com/Eminem-Venom%28Music%20From%20The%20Motion%20Picture%29-%28%E3%80%8A%E6%AF%92%E6%B6%B2%EF%BC%9A%E8%87%B4%E5%91%BD%E5%AE%88%E6%8A%A4%E8%80%85%E3%80%8B%E7%94%B5%E5%BD%B1%E4%B8%BB%E9%A2%98%E6%9B%B2%29.flac","cover":"http://p4.music.126.net/mZx-PJkVDKJaGvRIWHXEkw==/109951163078487780.jpg?param=640y300"},{"name":"I Need A Doctor","artist":"Eminem","url":"http://pq9ilgdr2.bkt.clouddn.com/Eminem&Dr.%20Dre-I%20Need%20A%20Doctor.flac","cover":"http://p4.music.126.net/mZx-PJkVDKJaGvRIWHXEkw==/109951163078487780.jpg?param=640y300"},{"name":"Lose Youself","artist":"Eminem","url":"http://pq9ilgdr2.bkt.clouddn.com/Eminem-Lose%20Yourself-%28%E3%80%8A8%E8%8B%B1%E9%87%8C%E3%80%8B%E7%94%B5%E5%BD%B1%E4%B8%BB%E9%A2%98%E6%9B%B2%E5%8F%8A%E7%89%87%E5%B0%BE%E6%9B%B2%29.flac","cover":"http://p4.music.126.net/mZx-PJkVDKJaGvRIWHXEkw==/109951163078487780.jpg?param=640y300"},{"name":"Rap God","artist":"Eminem","url":"http://pq9ilgdr2.bkt.clouddn.com/Eminem-Rap%20God.flac","cover":"http://p4.music.126.net/mZx-PJkVDKJaGvRIWHXEkw==/109951163078487780.jpg?param=640y300"},{"name":"You Be Love","artist":"Avicii","url":"http://pq9ilgdr2.bkt.clouddn.com/Avicii&Billy%20Raffoul-You%20Be%20Love.mp3","cover":"http://p4.music.126.net/Rl9PLuMTTKPnMksMIsgThg==/109951163325394773.jpg?param=640y300"},{"name":"The Nights","artist":"Avicii","url":"http://pq9ilgdr2.bkt.clouddn.com/Avicii-The%20Nights.mp3","cover":"http://p4.music.126.net/Rl9PLuMTTKPnMksMIsgThg==/109951163325394773.jpg?param=640y300"},{"name":"Waiting For Love","artist":"Avicii","url":"http://pq9ilgdr2.bkt.clouddn.com/Simon%20Aldred&Avicii&Martin%20Garrix-Waiting%20For%20Love.mp3","cover":"http://p4.music.126.net/Rl9PLuMTTKPnMksMIsgThg==/109951163325394773.jpg?param=640y300"},{"name":"Without You","artist":"Avicii","url":"http://pq9ilgdr2.bkt.clouddn.com/Avicii&Sandro%20Cavazza-Without%20You.mp3","cover":"http://p4.music.126.net/Rl9PLuMTTKPnMksMIsgThg==/109951163325394773.jpg?param=640y300"},{"name":"Wake Me Up","artist":"Avicii","url":"http://pq9ilgdr2.bkt.clouddn.com/Avicii&Aloe%20Blacc-Wake%20Me%20Up.mp3","cover":"http://p4.music.126.net/Rl9PLuMTTKPnMksMIsgThg==/109951163325394773.jpg?param=640y300"},{"name":"Levels","artist":"Avicii","url":"http://pq9ilgdr2.bkt.clouddn.com/Avicii-Levels.mp3","cover":"http://p4.music.126.net/Rl9PLuMTTKPnMksMIsgThg==/109951163325394773.jpg?param=640y300"},{"name":"SOS","artist":"Avicii","url":"http://pq9ilgdr2.bkt.clouddn.com/Aloe%20Blacc&Avicii-SOS.mp3","cover":"http://p4.music.126.net/Rl9PLuMTTKPnMksMIsgThg==/109951163325394773.jpg?param=640y300"},{"name":"记得","artist":"林俊杰","url":"http://pq9ilgdr2.bkt.clouddn.com/%E6%9E%97%E4%BF%8A%E6%9D%B0-%E8%AE%B0%E5%BE%97.mp3","cover":"http://p4.music.126.net/_cB2figc8IpT89DYhpARxA==/3389794350704969.jpg?param=640y300"},{"name":"以父之名","artist":"周杰伦","url":"http://pq9ilgdr2.bkt.clouddn.com/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E4%BB%A5%E7%88%B6%E4%B9%8B%E5%90%8D.mp3","cover":"http://p3.music.126.net/ql3nSwy0XKow_HAoZzRZgw==/109951163111196186.jpg?param=640y300"},{"name":"晴天","artist":"周杰伦","url":"http://pq9ilgdr2.bkt.clouddn.com/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E6%99%B4%E5%A4%A9.mp3","cover":"http://p3.music.126.net/ql3nSwy0XKow_HAoZzRZgw==/109951163111196186.jpg?param=640y300"},{"name":"退后","artist":"周杰伦","url":"http://pq9ilgdr2.bkt.clouddn.com/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E9%80%80%E5%90%8E.mp3","cover":"http://p3.music.126.net/ql3nSwy0XKow_HAoZzRZgw==/109951163111196186.jpg?param=640y300"},{"name":"淘汰","artist":"陈奕迅","url":"http://pq9ilgdr2.bkt.clouddn.com/%E9%99%88%E5%A5%95%E8%BF%85-%E6%B7%98%E6%B1%B0.flac","cover":"http://p4.music.126.net/nILBk4DaE3yV__25uq-5GQ==/18641120139241412.jpg?param=640y300"}]')
-    });
-});
-</script>
-                    
-
-                    
-                        <link rel="stylesheet" href="/libs/dplayer/DPlayer.min.css">
-<div class="video-player">
-    
-    <div class="title center-align">
-        <i class="fa fa-video-camera"></i>&nbsp;&nbsp;精彩视频
-    </div>
-    
-    <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s12">
-            <div id="dplayer" class="dplayer-video"
-                    ></div>
-        </div>
-    </div>
-</div>
-
-<script src="/libs/dplayer/DPlayer.min.js"></script>
-<script>
-    $(function () {
-        new DPlayer({
-            container: document.getElementById('dplayer'),
-            autoplay: 'false' === 'true',
-            theme: '#42b983',
-            loop: 'false' === 'true',
-            lang: 'zh-CN' === 'zh-CN' ? 'zh-cn' : 'en',
-            preload: 'auto',
-            volume: Number('0.7'),
-            video: {
-                url: 'https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4',
-                pic: '',
-                thumbnails: ''
-            }
-        });
-    });
-</script>
                     
 
                     <div id="recommend-sections" class="recommend">
@@ -1419,7 +1321,7 @@ typora-vue-theme 是 Typora Markdown 文档编辑器中一款类似Vue文档风�
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">172.7k</span>
+                <span class="white-color">175.5k</span>
             
 
             
@@ -1500,8 +1402,6 @@ $(function () {
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-
-    <script src="/libs/others/clicklove.js"></script>
 
 
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>

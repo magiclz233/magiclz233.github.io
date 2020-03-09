@@ -782,7 +782,25 @@ FileInputStream: 继承自InputStream的文件输入流类，用于从">
 <li>复杂难记，API使用繁琐。如：<code>Jdk1.6</code>中，从文本文件中读取数据转换为字符串，就得至少10行代码。</li>
 <li>IO流中的绝大多数方法都有<code>IOException</code>的检查异常，导致开发人员不得不在各个使用到的地方捕捉或再抛出异常，代码繁琐，不符合当前的主流设计思路。</li>
 </ul>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -1128,7 +1146,7 @@ FileInputStream: 继承自InputStream的文件输入流类，用于从">
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">172.7k</span>
+                <span class="white-color">175.5k</span>
             
 
             
@@ -1209,8 +1227,6 @@ $(function () {
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-
-    <script src="/libs/others/clicklove.js"></script>
 
 
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>

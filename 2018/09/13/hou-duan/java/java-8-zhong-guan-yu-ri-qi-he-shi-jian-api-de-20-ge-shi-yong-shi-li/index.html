@@ -674,7 +674,25 @@ System<span class="token punctuation">.</span>out<span class="token punctuation"
 <li>如何使用Java8的<code>Predicates</code>类过滤<code>Collection</code>？（<a href="http://javarevisited.blogspot.sg/2015/02/how-to-filter-collections-in-java-8.html" target="_blank" rel="noopener">答案</a>）</li>
 <li><code>Java</code>中如何随即访问文件？（<a href="http://javarevisited.blogspot.sg/2015/02/randomaccessfile-example-in-java-read-write-String.html" target="_blank" rel="noopener">答案</a>）</li>
 </ul>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -1021,7 +1039,7 @@ System<span class="token punctuation">.</span>out<span class="token punctuation"
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">172.7k</span>
+                <span class="white-color">175.5k</span>
             
 
             
@@ -1102,8 +1120,6 @@ $(function () {
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-
-    <script src="/libs/others/clicklove.js"></script>
 
 
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>

@@ -441,7 +441,7 @@
 <li><code>String toString()</code>：返回覆盖枚举常量的<code>toString()</code>方法的值。</li>
 <li><code>int compareTo(E o)</code>：比较此枚举与指定对象的顺序。</li>
 <li><code>Class&lt;E&gt; getDeclaringClass()</code>：返回与此枚举常量的枚举类型相对应的 Class 对象。</li>
-<li><code>static &lt;T extends Enum&lt;T&gt;&gt; T valueOf(Class&lt;T&gt; enumType, String name)</code>：返回指定名称的枚举常量指定的enumtype的方法。如：<code>ColorEnum color = ColorEnum.valueOf(&quot;RED&quot;);</code>。</li>
+<li><code>static &lt;T extends Enum&lt;T&gt;&gt; T valueOf(Class&lt;T&gt; enumType, String name)</code>：返回指定名称的枚举常量指定的enumtype的方法。如：<code>ColorEnum color = ColorEnum.valueOf("RED");</code>。</li>
 </ul>
 <h2 id="主要应用"><a href="#主要应用" class="headerlink" title="主要应用"></a>主要应用</h2><h3 id="表达常量"><a href="#表达常量" class="headerlink" title="表达常量"></a>表达常量</h3><p>在<code>Java 5</code>之前，定义常量的最佳方式是在<code>final</code>修饰的常量类中定义：<code>public static fianl...</code>修饰的属性，且须将构造方法设为<code>private</code>。代码示例如下：</p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">final</span> <span class="token keyword">class</span> <span class="token class-name">ColorConst</span> <span class="token punctuation">{</span>
@@ -690,7 +690,25 @@ log<span class="token punctuation">.</span><span class="token function">info</sp
 <li>枚举类型对象之间的值比较，可以使用<code>==</code>直接来比较值是否相等的，不是必须使用<code>equals</code>方法。</li>
 <li>推荐使用<strong>枚举单例</strong>来实现单例模式，可以使用<strong>枚举策略</strong>来简化策略模式。</li>
 </ul>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -1037,7 +1055,7 @@ Collection接口继承了Iterable接口，依赖了Predicate、Spliterator、Str
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">172.7k</span>
+                <span class="white-color">175.5k</span>
             
 
             
@@ -1118,8 +1136,6 @@ $(function () {
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-
-    <script src="/libs/others/clicklove.js"></script>
 
 
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>

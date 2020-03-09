@@ -398,7 +398,7 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        7.3k
+                        7.4k
                     </div>
                     
 
@@ -437,7 +437,7 @@
 <li>所有其他空白字符将被转义。</li>
 <li><code>Tab</code>字符不被用作缩进控制。</li>
 </ul>
-<h4 id="2-3-2-特殊转义字符串"><a href="#2-3-2-特殊转义字符串" class="headerlink" title="2.3.2 特殊转义字符串"></a>2.3.2 特殊转义字符串</h4><p>任何需要转义字符串表示的字符（例如：<code>\b</code>, <code>\t</code>, <code>\n</code>, <code>\f</code>, <code>\r</code>, <code>\&#39;</code>, <code>\\</code>等），采用这种转义字符串的方式表示，而不采用对应字符的八进制数（例如 <code>\012</code>）或<code>Unicode</code>码（例如：<code>\u000a</code>）表示。</p>
+<h4 id="2-3-2-特殊转义字符串"><a href="#2-3-2-特殊转义字符串" class="headerlink" title="2.3.2 特殊转义字符串"></a>2.3.2 特殊转义字符串</h4><p>任何需要转义字符串表示的字符（例如：<code>\b</code>, <code>\t</code>, <code>\n</code>, <code>\f</code>, <code>\r</code>, <code>\'</code>, <code>\\</code>等），采用这种转义字符串的方式表示，而不采用对应字符的八进制数（例如 <code>\012</code>）或<code>Unicode</code>码（例如：<code>\u000a</code>）表示。</p>
 <h4 id="2-3-3-非ASCII字符"><a href="#2-3-3-非ASCII字符" class="headerlink" title="2.3.3 非ASCII字符"></a>2.3.3 非ASCII字符</h4><p>对于其余非<code>ASCII</code>字符，直接使用<code>Unicode</code>字符（例如 <code>∞</code>），或者使用对应的<code>Unicode</code>码（例如：<code>\u221e</code>）转义，都是允许的。<strong>唯一需要考虑的是，何种方式更能使代码容易阅读和理解</strong>。</p>
 <blockquote>
 <p><strong>注意</strong>：在使用<code>Unicode</code>码转义，或者甚至是有时直接使用<code>Unicode</code>字符的时候，建议多添加一些注释说明，将对别人读懂代码很有帮助。</p>
@@ -889,7 +889,25 @@ aFoo<span class="token punctuation">.</span><span class="token function">aStatic
 <h4 id="7-3-2-例外：重载"><a href="#7-3-2-例外：重载" class="headerlink" title="7.3.2 例外：重载"></a>7.3.2 例外：重载</h4><p>如果一个方法重载了超类中的方法，那么<code>Javadoc</code>并非必需的。</p>
 <h4 id="7-3-3-可选的Javadoc"><a href="#7-3-3-可选的Javadoc" class="headerlink" title="7.3.3 可选的Javadoc"></a>7.3.3 可选的Javadoc</h4><p>对于包外不可见的类和方法，如有需要，也是要使用<code>Javadoc</code>的。如果一个注释是用来定义一个类，方法，字段的整体目的或行为， 那么这个注释应该写成<code>Javadoc</code>，这样更统一更友好。</p>
 <p>原文地址: <a href="http://checkstyle.sourceforge.net/reports/google-java-style-20170228.html" target="_blank" rel="noopener">Google Java Style Guide</a></p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -1242,7 +1260,7 @@ You</div>
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">172.7k</span>
+                <span class="white-color">175.5k</span>
             
 
             
@@ -1323,8 +1341,6 @@ $(function () {
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-
-    <script src="/libs/others/clicklove.js"></script>
 
 
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>

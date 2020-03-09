@@ -402,14 +402,14 @@ StringUtils.is">
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        3.5k
+                        3.6k
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        17 分
+                        18 分
                     </div>
                     
                 
@@ -887,7 +887,25 @@ StringUtils<span class="token punctuation">.</span><span class="token function">
 <h3 id="endsWith-CharSequence-str-CharSequence-suffix"><a href="#endsWith-CharSequence-str-CharSequence-suffix" class="headerlink" title="endsWith(CharSequence str, CharSequence suffix)"></a>endsWith(CharSequence str, CharSequence suffix)</h3><p>同<code>startsWith(CharSequence str, CharSequence prefix)</code>相反。</p>
 <h3 id="endsWithIgnoreCase-CharSequence-str-CharSequence-suffix"><a href="#endsWithIgnoreCase-CharSequence-str-CharSequence-suffix" class="headerlink" title="endsWithIgnoreCase(CharSequence str, CharSequence suffix)"></a>endsWithIgnoreCase(CharSequence str, CharSequence suffix)</h3><p>同<code>startsWithIgnoreCase(CharSequence str, CharSequence prefix)</code>相反。</p>
 <h3 id="endsWithAny-CharSequence-sequence-CharSequence…-searchStrings"><a href="#endsWithAny-CharSequence-sequence-CharSequence…-searchStrings" class="headerlink" title="endsWithAny(CharSequence sequence, CharSequence… searchStrings)"></a>endsWithAny(CharSequence sequence, CharSequence… searchStrings)</h3><p>同<code>startsWithAny(CharSequence sequence, CharSequence... searchStrings)</code>相反。</p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -1249,7 +1267,7 @@ CREATE TA</div>
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">172.7k</span>
+                <span class="white-color">175.5k</span>
             
 
             
@@ -1330,8 +1348,6 @@ $(function () {
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-
-    <script src="/libs/others/clicklove.js"></script>
 
 
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>

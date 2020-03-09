@@ -668,7 +668,25 @@ Collection接口继承了Iterable接口，依赖了Predicate、Spliterator、Str
 <li><code>Collection&lt;V&gt; values()</code>，获取本SortedMap集合中所有value的Collection集合</li>
 <li><code>Set&lt;Map.Entry&lt;K, V&gt;&gt; entrySet()</code>，获取本SortedMap集合中所有key和value的Map集合</li>
 </ul>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -1020,7 +1038,7 @@ Collection接口继承了Iterable接口，依赖了Predicate、Spliterator、Str
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">172.7k</span>
+                <span class="white-color">175.5k</span>
             
 
             
@@ -1101,8 +1119,6 @@ $(function () {
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-
-    <script src="/libs/others/clicklove.js"></script>
 
 
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>

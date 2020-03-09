@@ -393,7 +393,7 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        4.2k
+                        4.3k
                     </div>
                     
 
@@ -431,7 +431,7 @@
 <h2 id="Java基本注解"><a href="#Java基本注解" class="headerlink" title="Java基本注解"></a>Java基本注解</h2><p>在<code>java.lang</code>包下，JAVA提供了5个基本注解。</p>
 <h3 id="1-Override"><a href="#1-Override" class="headerlink" title="1. @Override"></a>1. @Override</h3><p><code>@Override</code>用于标注重写了父类的方法。对于子类中被<code>@Override</code>修饰的方法，如果存在对应的被重写的父类方法，则正确；如果不存在，则报错。<code>@Override</code>只能作用于方法，不能作用于其他程序元素。</p>
 <h3 id="2-Deprecated"><a href="#2-Deprecated" class="headerlink" title="2. @Deprecated"></a>2. @Deprecated</h3><p><code>@Deprecated</code>用于表示某个程序元素（类、方法等）已过时。如果使用了被<code>@Deprecated</code>修饰的类或方法等，编译器会发出警告。</p>
-<h3 id="3-SuppressWarnings"><a href="#3-SuppressWarnings" class="headerlink" title="3. @SuppressWarnings"></a>3. @SuppressWarnings</h3><p><code>@SuppressWarnings</code>用于抑制编译器的警告。指示被<code>@SuppressWarnings</code>修饰的程序元素（以及该程序元素中的所有子元素，例如类以及该类中的方法）取消显示指定的编译器警告。例如，常见的<code>@SuppressWarnings（value=&quot;unchecked&quot;）</code>。</p>
+<h3 id="3-SuppressWarnings"><a href="#3-SuppressWarnings" class="headerlink" title="3. @SuppressWarnings"></a>3. @SuppressWarnings</h3><p><code>@SuppressWarnings</code>用于抑制编译器的警告。指示被<code>@SuppressWarnings</code>修饰的程序元素（以及该程序元素中的所有子元素，例如类以及该类中的方法）取消显示指定的编译器警告。例如，常见的<code>@SuppressWarnings（value="unchecked"）</code>。</p>
 <p><code>SuppressWarnings</code>注解的常见参数值主要有以下几种：</p>
 <ul>
 <li><code>deprecation</code>：使用了不赞成使用的类或方法时的警告(使用<code>@Deprecated</code>使得编译器产生的警告)；</li>
@@ -763,7 +763,25 @@ myString <span class="token operator">=</span> <span class="token punctuation">(
 <li><a href="https://www.ibm.com/developerworks/cn/java/j-lo-java8annotation/" target="_blank" rel="noopener">Java 8 Annotation 新特性在软件质量和开发效率方面的提升</a></li>
 <li><a href="http://blog.csdn.net/u014207606/article/details/52291951" target="_blank" rel="noopener">Java内置系统注解和元注解</a></li>
 </ul>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -1115,7 +1133,7 @@ Date/Time API
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">172.7k</span>
+                <span class="white-color">175.5k</span>
             
 
             
@@ -1196,8 +1214,6 @@ $(function () {
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-
-    <script src="/libs/others/clicklove.js"></script>
 
 
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>

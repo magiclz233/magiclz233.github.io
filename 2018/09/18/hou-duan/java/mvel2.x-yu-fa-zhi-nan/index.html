@@ -397,7 +397,7 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        3.4k
+                        3.5k
                     </div>
                     
 
@@ -465,7 +465,7 @@ a<span class="token punctuation">;</span>
 b <span class="token operator">=</span> <span class="token punctuation">(</span>a <span class="token operator">=</span> a <span class="token operator">*</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">10</span><span class="token punctuation">;</span>
 <span class="token keyword">return</span> a<span class="token punctuation">;</span>
 </code></pre>
-<h2 id="二、值判断"><a href="#二、值判断" class="headerlink" title="二、值判断"></a>二、值判断</h2><p>在MVEL中所有的判断是否相等，都是对值的判断，而没有对引用的判断，因此表达式<code>foo == &#39;bar&#39;</code>等价于Java中的<code>foo.equals(&quot;bar&quot;)</code>。</p>
+<h2 id="二、值判断"><a href="#二、值判断" class="headerlink" title="二、值判断"></a>二、值判断</h2><p>在MVEL中所有的判断是否相等，都是对值的判断，而没有对引用的判断，因此表达式<code>foo == 'bar'</code>等价于Java中的<code>foo.equals("bar")</code>。</p>
 <h3 id="1-判断空值"><a href="#1-判断空值" class="headerlink" title="1. 判断空值"></a>1. 判断空值</h3><p>MVEL提供了一个特殊的字符来表示值为空的情况，叫作<code>empty</code>，例如：</p>
 <pre class=" language-java"><code class="language-java">foo <span class="token operator">==</span> empty
 </code></pre>
@@ -707,7 +707,25 @@ result <span class="token operator">=</span> cost <span class="token operator">+
 </code></pre>
 <p>上面的例子定义了一个Lambda，并将其赋值给变量”threshold”.Lambda实质上就是一个用来给变量赋值的函数，也是闭包。</p>
 <p>翻译原文：<a href="http://mvel.documentnode.com/" target="_blank" rel="noopener">http://mvel.documentnode.com/</a></p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -1060,7 +1078,7 @@ MVEL最初作为Mike Brock创建的 Valhalla项目的表达式计算器（expres
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">172.7k</span>
+                <span class="white-color">175.5k</span>
             
 
             
@@ -1141,8 +1159,6 @@ $(function () {
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-
-    <script src="/libs/others/clicklove.js"></script>
 
 
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>
